@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
    
 }
 .content{
@@ -8,6 +9,6 @@
     overflow-x: hidden;
 }
 .about_section{
-    overflow-x: hidden;
-
+    overflow: hidden;
+    width: 100vw;
 }
