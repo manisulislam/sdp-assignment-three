@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+<title>about</title>
+
+{% endblock %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+{% block content %}
+<h1 class="text-center fw-bolder mt-5">About us</h1>
+
+<section class="about_section">
+    <section class="row">
+        <div class="col-lg-6 col-sm-12 mt-5">
+            <h1 class="text-center mt-2  fw-bolder fst-italic">OUR VISION..</h1>
+            <div>
+                <p  class="text-start p-5 mt-1">"Our vision is to create a culinary haven where exceptional flavors, warm hospitality, and unforgettable experiences converge. We strive to be the destination of choice for those seeking not just a meal, but a celebration of the senses. With a commitment to innovation, sustainability, and community, we aim to redefine the dining experience and leave a lasting imprint on the hearts of our guests."
+    
+                </p>
+            </div>
+           
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <img class="img-fluid w-100 h-100 p-5 rounded-5 mt-3" src="{% static 'images/about_two.jpg' %}" alt="">
+        </div>
+    </section>
+    <!-- section two -->
+    <section class="row">
+        <div class="col-lg-6 col-sm-12 mt-5">
+            <img class="img-fluid w-100 h-100 p-5 rounded-5 mt-3" src="{% static 'images/about_three.jpg' %}" alt="">
+           
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            
+            <h1 class="text-center mt-5  fw-bolder fst-italic">OUR APPORACH..</h1>
+            <div>
+                <p  class="text-start p-5 mt-1">"At Apon Bari Restaurent, our approach is rooted in a passion for culinary excellence, creativity, and a genuine dedication to our guests. We believe in sourcing the finest, freshest ingredients to craft dishes that not only satisfy the palate but also tell a story of quality and authenticity. Our commitment to sustainability is reflected in every aspect of our operations, from the farm to the table. We strive to create a welcoming atmosphere where every detail, from the ambiance to the service, contributes to a memorable and enjoyable dining experience. With a focus on innovation and a respect for tradition, we aim to continuously elevate the art of dining and exceed the expectations of our valued patrons."
+    
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- section three -->
+    <section class="row">
+        <div class="col-lg-6 col-sm-12 mt-5">
+            <h1 class="text-center mt-2  fw-bolder fst-italic">OUR PROCESS..</h1>
+            <div>
+                <p  class="text-start p-5 mt-1">"At  Apon Bari Restaurent, our process is a carefully curated journey that begins with an unwavering commitment to quality and ends with an exceptional dining experience. Our culinary journey starts at the source, where we meticulously select the freshest and finest ingredients from trusted local suppliers. Our chefs, driven by a passion for innovation and a respect for culinary traditions, then transform these ingredients into exquisite dishes through skillful techniques and creative flair.
+    
+                </p>
+            </div>
+           
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <img class="img-fluid w-100 h-100 p-5 rounded-5 mt-3" src="{% static 'images/about_four.jpg' %}" alt="">
+        </div>
+    </section>
+</section>
+
+
+{% endblock %}

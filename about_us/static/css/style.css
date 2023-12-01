@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.content{
+    background-color: rgb(247, 228, 204);
+    overflow-x: hidden;
+}
+.about_section{
+    overflow-x: hidden;
+
+}
